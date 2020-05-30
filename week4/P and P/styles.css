@@ -45,18 +45,18 @@ h5 {
     box-sizing: border-box;
   }
   #box1 {
+    padding: 15px;
     background-color: #F5C6D6;
     width: 600px;
     height: 95px;
-    border: white;
-
   }
   #box2 {
+
+    padding: 15px;
     display: inline-block;
     background-color: #EE2E84;
     width: 147px;
     height: 95px;
-    border: white;
   }
   #box3 {
     display: inline-block;

@@ -1,0 +1,68 @@
+#box1 {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    transition-property: background-color;
+    transition-duration: 700ms;
+}
+#box2 {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    transition-delay: 900ms;
+    transition: width 1s, height 1s;
+}
+#box3 {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+}
+#box4 {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: darkgreen;
+}
+#box5 {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: darkslategray;
+    transition-delay: 900ms;
+    transition: width 1s, height 1s;
+}
+#box6 {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition-delay: 900ms;
+    transition: width 1s, height 1s;
+}
+#box1:hover {
+    background-color: brown;
+}
+#box2:hover {
+    height: 100px;
+    width: 300px;
+}
+#box3:hover {
+    box-shadow: black;
+    border: 5px solid black;
+}
+#box4:hover {
+    margin-right: 1cm;
+    padding-top: 25%;
+    opacity: 90%;
+}
+#box5:hover {
+    background-color: blue;
+    width: 1000px;
+}
+#box6:hover {
+    height: 500px;
+    width: 700px;
+}
